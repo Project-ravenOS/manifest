@@ -107,7 +107,7 @@
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="pixel" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="pixel" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="raven" />
-  <!--project path="packages/apps/RavenHouse" name="Raven_House" remote="raven" /-->
+  <project path="packages/apps/RavenHouse" name="Raven_House" remote="raven" />
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="pixel" />
   <project path="packages/apps/Traceur" name="packages_apps_Traceur" remote="pixel" />
   <project path="packages/modules/adb" name="packages_modules_adb" remote="pixel" />
@@ -132,7 +132,7 @@
   <!-- System Repos -->
   <project path="system/bpf" name="system_bpf" remote="pixel" />
   <project path="system/bt" name="system_bt" remote="pixel" />
-  <project path="system/core" name="system_core" remote="pixel" />
+  <project path="system/core" name="system_core" remote="raven" />
   <project path="system/incremental_delivery" name="system_incremental_delivery" remote="pixel" />
   <project path="system/libhwbinder" name="system_libhwbinder" remote="pixel" />
   <project path="system/libufdt" name="system_libufdt" remote="pixel" />
