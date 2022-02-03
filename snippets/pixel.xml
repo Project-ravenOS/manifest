@@ -30,6 +30,10 @@
 	  fetch="https://gitlab.com/RavenOS"
 	  revision="twelve" /> 
 
+  <remote name="raven-devices"
+	  fetch="https://github.com/RavenOS-Devices"
+	  revision="twelve" />
+
   <!-- External repos -->
   <project path="external/boringssl" name="external_boringssl" remote="pixel" />
   <project path="external/cldr" name="external_cldr" remote="pixel" />
@@ -152,5 +156,10 @@
 
   <!-- Tools Repos -->
   <project path="tools/metalava" name="tools_metalava" remote="pixel" />
+
+  <!-- OTA Repos -->
+  <project path="OTA" name="OTA" remote="raven-devices" revision="twelve" >
+      <linkfile src="support/ota.py" dest="ota.py" />
+    </project>
 
 </manifest>
