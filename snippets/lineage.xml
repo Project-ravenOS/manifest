@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="lineage"
+          fetch="https://github.com/LineageOS"
+          revision="lineage-19.1"
+          review="review.lineageos.org" />
+
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineage" />
+  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
+</manifest>
